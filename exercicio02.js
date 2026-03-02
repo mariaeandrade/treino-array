@@ -1,0 +1,4 @@
+const numeros = [12, 5, 8, 130, 44, 3, 9];
+const numerosPares = numeros.filter(numeros => numeros % 2 === 0);
+
+console.log(numerosPares)
