@@ -7,4 +7,4 @@ const emailsAtivos = clientes
   .filter(cliente => cliente.ativo)
   .map(cliente => cliente.email);
 
-  console.log(emailsAtivos)
+  console.log(emailsAtivos);
